@@ -1,0 +1,27 @@
+body {
+  background-color: beige;
+}
+
+.block-wrapper {
+  display: inline-flex;
+  align-items: center;
+}
+
+.block {
+  width: 54px;
+  height: 54px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.block-one {
+  background-image: url('./icons/home.svg');
+}
+
+.block-two {
+  background-image: url('./icons/phone.svg');
+}
+
+.block-three {
+  background-image: url('./icons/wink.svg');
+}
