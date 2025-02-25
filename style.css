@@ -2,9 +2,14 @@ body {
   background-color: beige;
 }
 
+.section-block:not(:last-of-type) {
+  margin-bottom: 54px;
+}
+
 .block-wrapper {
   display: inline-flex;
   align-items: center;
+  gap: 24px;
 }
 
 .block {
@@ -24,4 +29,13 @@ body {
 
 .block-three {
   background-image: url('./icons/wink.svg');
+}
+
+.icon {
+  display: block;
+  fill: currentColor;
+}
+
+.icon:hover {
+  color: red;
 }
